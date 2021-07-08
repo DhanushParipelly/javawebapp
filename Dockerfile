@@ -4,3 +4,4 @@ RUN mkdir pwc
 WORKDIR pwc
 ADD myapp . 
 EXPOSE 8080
+CMD ["tomcat","-DFOREGROUND"]
