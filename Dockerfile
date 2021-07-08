@@ -3,4 +3,4 @@ WORKDIR /usr/local/tomcat/webapps
 RUN mkdir pwc
 WORKDIR pwc
 ADD myapp . 
-EXPOSE 8081
+EXPOSE 8080
